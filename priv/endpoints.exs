@@ -148,6 +148,16 @@ chime_voice_regions = [
             "us-west-2" => %{}
           }
         },
+         "bedrock-agent-runtime" => %{
+          "defaults" => %{"credentialScope" => %{"service" => "bedrock"}},
+          "endpoints" => %{
+            "ap-northeast-1" => %{},
+            "ap-southeast-1" => %{},
+            "eu-central-1" => %{},
+            "us-east-1" => %{},
+            "us-west-2" => %{}
+          }
+        },
         "connect" => %{
           "endpoints" => %{
             "ap-northeast-1" => %{},
